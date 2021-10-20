@@ -4,13 +4,13 @@ html{
 
 body{
     margin: 0;
-    background-color: #efefef;
+    background-color: #dddcdc;
 }
 
 header{
-    background-color: rgb(120, 62, 173);
+    background-color: rgb(119, 127, 235);
     color: white;
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem;
 }
 
 header h1{
@@ -24,10 +24,21 @@ header h1{
     text-align: center;
 }
 
+#tituloPrin{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 15px auto;
+    padding: 20px 0;
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
 section article{
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.4s ease, background-color 0.4s ease;
+    height: 10%;
     background-color: white;
-    margin: 1rem 0;
+    margin: 10% 0;
     border-radius: 1rem;
     padding: 0.25rem 0;
     cursor: pointer;
@@ -36,6 +47,7 @@ section article{
 
 section article:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,2);
+    background-color: rgb(216, 226, 228);
 }
 
 section article h3,section article p{
@@ -43,7 +55,7 @@ section article h3,section article p{
 }
 
 footer{
-    background-color: rgb(50, 35, 51);
+    background-color: rgb(14, 11, 53);
     padding: 3rem;
     color: whitesmoke;
 }
