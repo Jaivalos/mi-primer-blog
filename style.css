@@ -30,6 +30,10 @@ section article{
     padding: 0.25rem 0;
 }
 
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,2);
+}
+
 section article h3,section article p{
     margin: 1rem;
 }
