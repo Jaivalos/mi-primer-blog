@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: blueviolet;
+    background-color: rgb(162, 80, 240);
     color: white;
     padding: 3rem 2rem;
 }
@@ -38,4 +38,27 @@ section article:hover{
 
 section article h3,section article p{
     margin: 1rem;
+}
+
+footer{
+    background-color: rgb(50, 35, 51);
+    padding: 3rem;
+    color: whitesmoke;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+margin: 0%;
+}
+
+footer a{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer a:hover{
+    color: cornflowerblue;
 }
