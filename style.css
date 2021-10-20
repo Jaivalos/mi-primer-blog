@@ -21,6 +21,7 @@ header h1{
 .container{
     width: 400px;
     margin: 0 auto; /*Centrar el contenido*/
+    text-align: center;
 }
 
 section article{
@@ -30,6 +31,7 @@ section article{
     border-radius: 1rem;
     padding: 0.25rem 0;
     cursor: pointer;
+    text-align: center;
 }
 
 section article:hover{
